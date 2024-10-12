@@ -1,13 +1,34 @@
 
-nav{
+nav
+{
     width: 100%;
     display: flex;
 }
 
-nav > div{
+nav > div
+{
     width: 33%;
+    text-align: center;
+    vertical-align: center;
 }
 
-img{
+img
+{
     height: 50px;
+}
+
+ul
+{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+li > a
+{
+    margin: 5px;
+    font-size: 14pt;
+    color: white;
 }

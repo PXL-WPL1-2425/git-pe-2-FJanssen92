@@ -26,9 +26,40 @@ ul
 
 }
 
+a:link
+{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited
+{
+    text-decoration: none;
+}
+
+a:active
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-underline: white;
+}
+
 li > a
 {
     margin: 5px;
     font-size: 14pt;
     color: white;
+
+}
+
+#signin
+{
+    color: black;
+    background-color: red;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
 }

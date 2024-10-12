@@ -1,4 +1,8 @@
-
+*
+{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 nav
 {
     width: 100%;
@@ -8,8 +12,9 @@ nav
 nav > div
 {
     width: 33%;
-    text-align: center;
-    vertical-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 img
@@ -21,10 +26,9 @@ ul
 {
     list-style-type: none;
     display: flex;
-    text-align: center;
-    vertical-align: middle;
-
 }
+
+
 
 a:link
 {
@@ -49,7 +53,7 @@ a:hover
 
 li > a
 {
-    margin: 5px;
+    margin: 10px;
     font-size: 14pt;
     color: white;
 
@@ -62,4 +66,12 @@ li > a
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
+}
+
+.hero_new__video
+{
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    top: 0;
 }
